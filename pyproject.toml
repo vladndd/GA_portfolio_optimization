@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aiproject"
+version = "0.1.0"
+description = ""
+authors = ["vladndd <vlad.yaromiy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.10.1"
+pandas = "^2.2.3"
+numpy = "^2.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
